@@ -1,0 +1,3 @@
+verbose
+basedir /opt/repos/zabbix/1.8/debian
+ask-passphrase

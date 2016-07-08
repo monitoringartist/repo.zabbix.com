@@ -1,0 +1,7 @@
+Origin: Zabbix
+Label: zabbix
+Codename: squeeze
+Architectures: i386 amd64 source
+Components: main non-free contrib
+Description: Zabbix official apt repository
+SignWith: 79EA5ED4
