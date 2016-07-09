@@ -19,7 +19,7 @@ gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX
 
 [monitoringartist-zabbix-non-supported]
-name=Zabbix Official Repository non-supported - Monitoring Artist mirror - $basearch
+name=Zabbix Official Repository non-supported - Monitoring Artist mirror - \$basearch
 baseurl=https://monitoringartist.github.io/repo.zabbix.com/non-supported/rhel/7/\$basearch/
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX
