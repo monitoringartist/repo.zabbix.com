@@ -1,0 +1,267 @@
+Package: zabbix-agent
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 644
+Depends: libc6 (>= 2.17), libcurl3 (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), libodbc1 (>= 2.3.1), libssl1.0.0 (>= 1.0.1), adduser, lsb-base
+Suggests: logrotate
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-agent_3.0.3-1+jessie_amd64.deb
+Size: 336484
+SHA256: 2fe7fb62a3c7e972f6c89041c5a37ccf63868d802a6f14e810b2b8a90c639d35
+SHA1: 48554396996c6db26cef3ee432f69123776da3c8
+MD5sum: c68c717570d72d025d5e9ee6d75c52c0
+Description: Zabbix network monitoring solution - agent
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to monitor a host using a
+ Zabbix agent.
+
+Package: zabbix-frontend-php
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: all
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 30243
+Depends: apache2 | httpd, php5, php5-mysql | php5-mysqlnd | php5-pgsql, php5-gd, php5-ldap, ttf-dejavu-core | ttf-japanese-gothic
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-frontend-php_3.0.3-1+jessie_all.deb
+Size: 2647120
+SHA256: b22fe2870966b11e30b2bf41af24b844d032f3c01dbd1ecd62494d2fa28302ea
+SHA1: 0f1e398dd8a46011068bf460cb60ae7eb16e4f2b
+MD5sum: 16b572bbd243b975a77739685d511e9e
+Description: Zabbix network monitoring solution - PHP front-end
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides a web-browsable front-end to the Zabbix server, which
+ can display graphs of the data collected from clients.
+
+Package: zabbix-get
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 358
+Depends: libc6 (>= 2.17), libodbc1 (>= 2.3.1), libssl1.0.0 (>= 1.0.1)
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-get_3.0.3-1+jessie_amd64.deb
+Size: 243778
+SHA256: be2155f9f9234e6b9c73a4cee7b94d43a00b061d134fcaa6b5b7c2ee2a9dc6db
+SHA1: fab770fe77358ddadae8e20e998227e768c3856b
+MD5sum: d4c1f07a109cb62d27b9368944ea4786
+Description: Zabbix network monitoring solution - get
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the command line utility needed to get data from agent.
+
+Package: zabbix-java-gateway
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: all
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 871
+Depends: java6-runtime-headless | java7-runtime-headless, adduser, lsb-base
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-java-gateway_3.0.3-1+jessie_all.deb
+Size: 740820
+SHA256: f725fb7c08636fcaeb97aca38a51559623d6be11fd303f017b701cbf006059f9
+SHA1: 58f4fa614bb78dccc384a41ec80a954e5aa6fe39
+MD5sum: 549348bcf3d5cf940bba3714faa54ccf
+Description: Zabbix network monitoring solution - java-gateway
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to monitor a Java application
+ using a Zabbix Java gateway. It collects information from JMX agent.
+
+Package: zabbix-proxy-mysql
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 1704
+Depends: libc6 (>= 2.17), libcurl3 (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), libmysqlclient18 (>= 5.5.24+dfsg-1), libodbc1 (>= 2.3.1), libopenipmi0, libsnmp30 (>= 5.7.2.1+dfsg-1~dfsg), libssh2-1 (>= 1.0), libssl1.0.0 (>= 1.0.1), libxml2 (>= 2.7.4), mysql-client | virtual-mysql-client, fping, adduser, lsb-base
+Recommends: mysql-server (>= 5.0.3)
+Suggests: logrotate
+Conflicts: zabbix-proxy-pgsql, zabbix-proxy-sqite3
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-proxy-mysql_3.0.3-1+jessie_amd64.deb
+Size: 596858
+SHA256: 5751c8e0a95891bd54ddbf9c028b4769c2e46415f523bb074178103351f0b0e1
+SHA1: a9e34e465977f6062a4b0793dce0b629bd404fb7
+MD5sum: d8388ff6592330e4fd72520baf6ced34
+Description: Zabbix network monitoring solution - proxy (MySQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ proxy. It collects information from Zabbix agents, temporarily stores it
+ in a MySQL database and then passes it to a Zabbix server.
+
+Package: zabbix-proxy-pgsql
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 1703
+Depends: libc6 (>= 2.17), libcurl3 (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), libodbc1 (>= 2.3.1), libopenipmi0, libpq5, libsnmp30 (>= 5.7.2.1+dfsg-1~dfsg), libssh2-1 (>= 1.0), libssl1.0.0 (>= 1.0.1), libxml2 (>= 2.7.4), postgresql-client, fping, adduser, lsb-base
+Recommends: postgresql (>= 8.1)
+Suggests: logrotate
+Conflicts: zabbix-proxy-mysql, zabbix-proxy-sqlite3
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-proxy-pgsql_3.0.3-1+jessie_amd64.deb
+Size: 597188
+SHA256: 52e9248e0461829c007f125acd876f2d7cb0dd4ea3e3c2c1815ec2f25b24cbb5
+SHA1: d9be8370dda7d784d5269a07be0378e48bd5a06a
+MD5sum: a4fb29366880299aa1470b946fc2ef2a
+Description: Zabbix network monitoring solution - proxy (PostgreSQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ proxy. It collects information from Zabbix agents, temporarily stores it
+ in a PostgreSQL database and then passes it to a Zabbix server.
+
+Package: zabbix-proxy-sqlite3
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 1690
+Depends: libc6 (>= 2.17), libcurl3 (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), libodbc1 (>= 2.3.1), libopenipmi0, libsnmp30 (>= 5.7.2.1+dfsg-1~dfsg), libsqlite3-0 (>= 3.5.9), libssh2-1 (>= 1.0), libssl1.0.0 (>= 1.0.1), libxml2 (>= 2.7.4), sqlite3, fping, adduser, lsb-base
+Suggests: logrotate
+Conflicts: zabbix-proxy-mysql, zabbix-proxy-pgsql
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-proxy-sqlite3_3.0.3-1+jessie_amd64.deb
+Size: 585304
+SHA256: ca0d98b6baf9ab5bb6e6c833d915f030578b16521725712a2d668beb52dabe05
+SHA1: 63e20f3f2d826165e922d93b41f76d73c6936c12
+MD5sum: 61d7642318aad1a1dd5b84b30794f531
+Description: Zabbix network monitoring solution - proxy (SQLite3)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ proxy. It collects information from Zabbix agents, temporarily stores it
+ in an SQLite3 database and then passes it to a Zabbix server.
+
+Package: zabbix-release
+Version: 3.0-1+jessie
+Architecture: all
+Maintainer: Kodai Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 43
+Homepage: http://www.zabbix.com
+Priority: extra
+Section: net
+Filename: pool/main/z/zabbix-release/zabbix-release_3.0-1+jessie_all.deb
+Size: 2776
+SHA256: 88ed38768d19ac15ba9e1bcff3c944f542f1687836684efbc3e13f993fb7d301
+SHA1: 987b415dfb1b18cf119fcd9a84d4222a40b313e3
+MD5sum: 015e553e3b7bd2a7aad2272ad4adec41
+Description: Zabbix official repository configuration
+ This package provide Zabbix official repository configuration files.
+
+Package: zabbix-sender
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 385
+Depends: libc6 (>= 2.17), libodbc1 (>= 2.3.1), libssl1.0.0 (>= 1.0.1)
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-sender_3.0.3-1+jessie_amd64.deb
+Size: 253686
+SHA256: 256bd397857697ceb0ccb62168ed769159f8a82913978443f001ac02dc4c39a5
+SHA1: 0cf2d9a3c4130cc7f8c2dbfd701fc916d8c2ee16
+MD5sum: e161fe3ae950e112b4eacc9f8c16530f
+Description: Zabbix network monitoring solution - sender
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the command line utility needed to send data to
+ Zabbix server or Zabix proxy.
+
+Package: zabbix-server-mysql
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 2919
+Pre-Depends: debconf
+Depends: libc6 (>= 2.17), libcurl3 (>= 7.16.2), libiksemel3 (>= 1.2), libldap-2.4-2 (>= 2.4.7), libmysqlclient18 (>= 5.5.24+dfsg-1), libodbc1 (>= 2.3.1), libopenipmi0, libsnmp30 (>= 5.7.2.1+dfsg-1~dfsg), libssh2-1 (>= 1.0), libssl1.0.0 (>= 1.0.1), libxml2 (>= 2.7.4), mysql-client | virtual-mysql-client, fping, adduser, lsb-base
+Recommends: mysql-server (>= 5.0), snmpd
+Suggests: zabbix-frontend-php, logrotate
+Conflicts: zabbix-server-pgsql
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-server-mysql_3.0.3-1+jessie_amd64.deb
+Size: 1775118
+SHA256: 5e22c70d979f32f451296c07dbb98f39f750db76331754f513a904839b97196d
+SHA1: 1165dcdac14d52fc7fef9f3fa4691052ebbaad87
+MD5sum: 76e79b3765f7ace1f0ed67acc74f1924
+Description: Zabbix network monitoring solution - server (MySQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ client. It collects information from Zabbix clients and stores it in a
+ MySQL database.
+
+Package: zabbix-server-pgsql
+Source: zabbix
+Version: 1:3.0.3-1+jessie
+Architecture: amd64
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Installed-Size: 2918
+Pre-Depends: debconf
+Depends: libc6 (>= 2.17), libcurl3 (>= 7.16.2), libiksemel3 (>= 1.2), libldap-2.4-2 (>= 2.4.7), libodbc1 (>= 2.3.1), libopenipmi0, libpq5, libsnmp30 (>= 5.7.2.1+dfsg-1~dfsg), libssh2-1 (>= 1.0), libssl1.0.0 (>= 1.0.1), libxml2 (>= 2.7.4), postgresql-client, fping, adduser, lsb-base
+Recommends: postgresql (>= 8.1), snmpd
+Suggests: zabbix-frontend-php, logrotate
+Conflicts: zabbix-server-mysql
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: unknown
+Filename: pool/main/z/zabbix/zabbix-server-pgsql_3.0.3-1+jessie_amd64.deb
+Size: 1775428
+SHA256: a16b863e5a7f4acb04065f22d83b1d8243533a2e132f5a3298b740a0b7426df7
+SHA1: 58f0a7aef31e1307572be3867e49a0a16d3ea7fd
+MD5sum: f5b3a44d2a723a9af95abd634e769560
+Description: Zabbix network monitoring solution - server (PostgreSQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ client. It collects information from Zabbix clients and stores it in a
+ PostgreSQL database.
+

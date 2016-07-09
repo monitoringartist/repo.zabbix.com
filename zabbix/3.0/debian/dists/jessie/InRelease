@@ -1,0 +1,101 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Zabbix
+Label: zabbix
+Codename: jessie
+Date: Mon, 23 May 2016 12:03:29 UTC
+Architectures: i386 amd64
+Components: main non-free contrib
+Description: Zabbix official apt repository
+MD5Sum:
+ 3383b2ab03338d739a0c77352e490805 11938 main/binary-i386/Packages
+ 89112db1405764ba8ccb17947ba4aea4 2580 main/binary-i386/Packages.gz
+ 3b5b8ee2f51419467d22ec9a6bdd1c48 108 main/binary-i386/Release
+ 2f78ff5c8d1d74787ee04c180a2ac386 11954 main/binary-amd64/Packages
+ 985b4be6da8bd4496a68c23888b04bb6 2581 main/binary-amd64/Packages.gz
+ 914b192f9b2f0d2a80328e167e035064 109 main/binary-amd64/Release
+ f548fc77e2b2d0b89010c8800c17eb39 2957 main/source/Sources
+ 88bb5f69b0b7e9b97d4860bdd546bb8a 1152 main/source/Sources.gz
+ b6bfd9ce5e424d6e6bffaf87fbde7fcf 110 main/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-i386/Packages.gz
+ 934ebfeae3c38f915ea1ca2143c21590 112 non-free/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-amd64/Packages.gz
+ ca4e11bb50820aadca51c503341b6339 113 non-free/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
+ a738dafe0c79311154484acc17ffe750 114 non-free/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-i386/Packages.gz
+ b080bc7eb97e7a082440ad6c0181fbc0 111 contrib/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-amd64/Packages.gz
+ 42f8c489d9734efcd087ed1be45e4c5f 112 contrib/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
+ d7973f4dc68a61c346f118b9e0c7acc4 113 contrib/source/Release
+SHA1:
+ 37ec41538edbf08ed35d709f46a9614cdb8222e8 11938 main/binary-i386/Packages
+ 4baf1a73712ebb1845643ab703f94badab4f0a1d 2580 main/binary-i386/Packages.gz
+ 2c42b2bd3ab40b4b3d125f53f738252df9577668 108 main/binary-i386/Release
+ 918db5f0f8b51bf933a3b83cf7f3c553956210ce 11954 main/binary-amd64/Packages
+ fe85730316ca3be4a3dcd43b79f9362c90caafd9 2581 main/binary-amd64/Packages.gz
+ 7df478cd95d3450503ae3be21cef6bdb9e176fb7 109 main/binary-amd64/Release
+ f16015a7789b2532746516f6744ba681b488a4e0 2957 main/source/Sources
+ 9930260c816fca3ab1d17ec8a7d276e37db29783 1152 main/source/Sources.gz
+ 46e9c44b3e0595c066e9c4b723e6a0e017acda53 110 main/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-i386/Packages.gz
+ 95f0bc4c8f5da08c052b83fc409fb9240e81d6be 112 non-free/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-amd64/Packages.gz
+ d81d4675530efb12cd52cbc1b8a4cd61b9016436 113 non-free/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
+ 0687910dceaf1f564d73d920c04e6cb66d91f3d8 114 non-free/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-i386/Packages.gz
+ 53d9a9a3c08efa023988880d5c65d8ec4e2bcaec 111 contrib/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-amd64/Packages.gz
+ 7698d8920cc768559de243436e5d730dbe83b53b 112 contrib/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
+ b6c67193ee56ab6c8f3a8020e4d06df82c93d7e1 113 contrib/source/Release
+SHA256:
+ 2c7a8d4f414d68393b0fb99a62207985cc7169bd4c564d5a1f14c2c1573f613a 11938 main/binary-i386/Packages
+ 09b46aa93a9ebb90d5adf4601b149058f7ababebbb843302334389009902cedb 2580 main/binary-i386/Packages.gz
+ 443854d01911203d7345726e400cbe58844a71f783ec4cb267bbcd3246213bef 108 main/binary-i386/Release
+ 2da84032bb7f38526db9be36e617c82795599660e56163b28697e5a929588438 11954 main/binary-amd64/Packages
+ c7a238cd64980798ae724843f1b73d1b9520eedc5e9ecfc1e256e6e2467a382a 2581 main/binary-amd64/Packages.gz
+ b9bac28a57167acd498211d7a4638af180977ff501f267b667b4436aaa81fd9b 109 main/binary-amd64/Release
+ 2e373346e248ae7d8104f1388a31b76e67382f717177496ce557acc4ed5a49d1 2957 main/source/Sources
+ 0f4bd9f794cf4b2ab55a27e19ed904ebcab572674d4c47a3335a1aa76948e062 1152 main/source/Sources.gz
+ 0080c230408e5af08e9a57979330b9859010ca880c3b9dae93a5e28f0ad4f0d8 110 main/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-i386/Packages.gz
+ ca919c98f009c8899396cee1bb19f8c1fa4fba8c42d6f15c46720fdad72c175d 112 non-free/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-amd64/Packages.gz
+ 11c8f8850fbf2c1f651905fdb08bbe4fba198ba697ee4d27ebff9bb31d5c9807 113 non-free/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
+ f4f4018a41973a45ca3cf9fa771fb336808b14713bac08d00034e4ce8140ced8 114 non-free/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-i386/Packages.gz
+ ea0067507b7c277004d00c865df0ad8f3c472e5b6f74361b7256eff259cf35e4 111 contrib/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-amd64/Packages.gz
+ b754ed154400a564b3848fea7d13b6a1c2602cae8af44b03f18897aedffc4bae 112 contrib/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/source/Sources.gz
+ 2110a1e32bc38edb9a0f862f5f869c47e9692df6b714eeb847f611cfe2996415 113 contrib/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAldC8ZIACgkQ0T1Y5HnqXtRlngCff3U6/CBqsK2tpAEOHvE6Naat
+qUIAn2H6K7Z5couKM7UqCkRkDHgFH4gL
+=sQy5
+-----END PGP SIGNATURE-----

@@ -1,0 +1,5 @@
+Component: non-free
+Origin: Zabbix
+Label: zabbix
+Architecture: i386
+Description: Zabbix official apt repository

@@ -1,0 +1,5 @@
+Component: contrib
+Origin: Zabbix
+Label: zabbix
+Architecture: amd64
+Description: Zabbix official apt repository
