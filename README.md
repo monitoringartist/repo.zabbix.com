@@ -17,6 +17,29 @@ apt-get update
 apt-get install zabbix-<...>
 ```
 
+## RHEL/CentOS 7
+
+```
+cat > /etc/yum.repos.d/zabbix.repo<< EOF
+[zabbix]
+name=Zabbix Official Repository - \$basearch
+baseurl=http://monitoringartist.github.io/repo.zabbix.com/zabbix/3.0/rhel/7/\$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX
+
+[zabbix-non-supported]
+name=Zabbix Official Repository non-supported - $basearch
+baseurl=https://monitoringartist.github.io/repo.zabbix.com/non-supported/rhel/7/\$basearch/
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX
+gpgcheck=1
+EOF
+
+wget https://monitoringartist.github.io/repo.zabbix.com/RPM-GPG-KEY-ZABBIX \
+ -O /etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX
+```
+
 # Mirror command
 
 ```
